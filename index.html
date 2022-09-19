@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="styles/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div>
+            <h2>Create Account</h2>
+        </div>
+        <div class="login">
+            <form>
+                <div class="first-row">
+                    <i class="fa-solid fa-user"></i>
+                    <input id="name" type="text" placeholder="Name">
+                </div>
+                <div class="second-row">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="third-row">
+                    <i class="fa-solid fa-lock"></i>
+                    <input id="password" type="password" placeholder="Password">
+                </div>
+            </form>
+        </div>
+        <div class="btn">
+            <a href="signin.html"><button id="primary" onclick="signup()">SIGN UP</button></a>
+        </div>
+    </div>
+
+    <script src="scripts/signup.js"></script>
+</body>
+</html>

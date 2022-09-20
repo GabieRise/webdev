@@ -5,5 +5,5 @@ const btn = document.querySelector(".btn")
 
 function Signin(){
     if(firstRow.value !=="" && secondRow.value !=="" & thirdRow.value !=="") 
-    alert("welcome")
+    alert("proceed")
 }

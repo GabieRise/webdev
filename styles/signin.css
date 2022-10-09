@@ -5,6 +5,7 @@ body {
     overflow: hidden;
     
 }
+/*  form Box */
 .main{
     height:500px;
     width: 30%;
@@ -87,6 +88,8 @@ body {
     padding:10px 8px;
     color:rgb(128, 128, 128)
 }
+
+/* Button */
 .main .btn {
     text-align: center;
     margin-top: 0px;
